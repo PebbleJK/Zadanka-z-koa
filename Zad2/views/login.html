@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body>
+  <form action='/login' method="post">
+    <label for="login">Login<br/>
+      <input type="text" name="login" id="login" required/>
+    </label><br />
+    <label for="passwd">Hasło (minimum 8 znaków)<br/>
+      <input type="password" name="passwd" id="passwd" minlength="8" required/>
+    </label><br/>
+    <input type="submit" value="Zaloguj się"/>
+  </form>
+</body>
+</html>
